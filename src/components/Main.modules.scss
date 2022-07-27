@@ -1,0 +1,67 @@
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+.taskCounter{
+    display: flex;
+    width: 728px;
+    align-items: center;
+    justify-content: space-between;
+    .taskCounterItem{
+        display: flex;
+        gap: 1rem;
+        font-size: 0.875rem;
+        font-weight: bold;
+     
+        .lightBlue{
+            color: var(--blue-200);
+        }
+        .lightPurple{
+            color: var(--purple-200);
+        }
+    }
+    .numberBox{
+        padding: 8px;
+        height: 19px;
+        background-color: var(--gray-600);
+        border-radius: 999px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+}
+
+.line{
+    width: 728px;
+    height: 1px;
+    background-color: var(--gray-400);
+    margin-top: 1rem;
+}
+.clipboardActive{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+    p{
+        color: var(--gray-300);
+        
+        span{
+            
+            font-weight: bold;
+        }
+    }
+}
+.taskListContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

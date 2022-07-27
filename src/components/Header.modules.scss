@@ -1,4 +1,4 @@
-.container{
+.containerLogo{
   background: var(--gray-700);
   display: flex;
   align-items: center;
@@ -11,5 +11,52 @@
   }
   span{
     color: var(--blue-400)
+  }
+}
+
+.create-task{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  position: relative;
+  bottom: 27px;
+
+  form{
+    display: flex;
+    gap: 1rem;
+  }
+
+  input{
+    border-radius: 8px;
+    width: 638px;
+    height: 54px;
+    background-color: var(--gray-400);
+    border: none;
+    padding: 1rem;
+    color: var(--gray-100);
+  }
+
+  input:focus{
+    outline: solid 1px var(--purple-200);
+  }
+  
+  button{
+    width: 80px;
+    font-size: 0.875rem;
+    font-weight: bold;
+    height: 52px;
+    border-radius: 8px;
+    border: none;
+    background: var(--blue-400);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--gray-100);
+    transition: background 0.3s ease-in-out;
+  }
+  button:hover{
+    background: var(--blue-200);
   }
 }
