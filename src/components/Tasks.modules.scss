@@ -60,6 +60,10 @@ section{
         }
     }
 }
+.clipboardInactive{
+    display: none;
+}
+
 .taskListContainer{
     display: flex;
     flex-direction: column;
