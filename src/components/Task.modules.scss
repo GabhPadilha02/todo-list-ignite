@@ -55,3 +55,21 @@
     text-decoration: line-through;
    color: var(--gray-300)
 }
+
+@media (max-width: 720px){
+    .taskContainer{
+        max-width: 80vw;
+    }
+    .checkContainer{
+        width: 0.875rem;
+        height: 0.875rem;
+    }
+    .alignText{
+        font-size: 0.7rem;
+    }
+    .trash{
+        img{
+            width: 0.875rem;
+        }
+    }
+}

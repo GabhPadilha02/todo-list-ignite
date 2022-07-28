@@ -16,7 +16,7 @@ export function Tasks({tasks, onDelete, onComplete}:Props) {
    console.log(tasks)
     return (
         <section>
-            <header>
+            <header className="container">
                 <div className="taskCounter">
                     <div className="taskCounterItem">
                         <p className="lightBlue">Tarefas criadas</p>
@@ -31,7 +31,6 @@ export function Tasks({tasks, onDelete, onComplete}:Props) {
                         </div>
                     </div>
                 </div>
-                <div className="line"></div>
             </header>
             <div className="taskListContainer">
                 {tasks.map((task) => (

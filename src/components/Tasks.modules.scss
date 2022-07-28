@@ -10,6 +10,7 @@ section{
     width: 728px;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 2rem;
     .taskCounterItem{
         display: flex;
         gap: 1rem;
@@ -37,12 +38,7 @@ section{
     }
 }
 
-.line{
-    width: 728px;
-    height: 1px;
-    background-color: var(--gray-400);
-    margin-top: 1rem;
-}
+
 .clipboardActive{
     display: flex;
     flex-direction: column;
@@ -68,4 +64,28 @@ section{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+
+@media (max-width: 720px) {
+    .taskCounter{
+        max-width: 80vw;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+    }
+    .taskCounterItem{
+        display: flex;
+        align-items: center;
+        p{
+            font-size: 0.7rem;
+        }
+        span{
+            font-size: 0.5rem;
+        }
+    }
+    .numberBox{
+        max-width: 100%;
+    }
+    
 }

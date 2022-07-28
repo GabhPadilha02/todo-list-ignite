@@ -65,3 +65,24 @@
   opacity: 0.6;
   cursor:not-allowed;
 }
+
+@media (max-width: 720px) {
+  
+  .create-task{
+    
+    form{
+      max-width: 80vw;
+    }
+
+    input{
+      font-size: 0.7rem;
+    }
+    button{
+      font-size: 0.7rem;
+      padding: 20px;
+    }
+    img{
+      width: 0.875rem;
+    }
+  }
+}
